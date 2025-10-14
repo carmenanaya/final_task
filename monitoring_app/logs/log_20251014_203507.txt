@@ -1,0 +1,3 @@
+14/10/2025_20:35_Programmet startar.
+14/10/2025_20:36_Alarm for CPU set to 2%.
+14/10/2025_20:36_Programmet avslutas av användaren.

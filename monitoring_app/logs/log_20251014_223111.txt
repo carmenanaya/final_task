@@ -1,0 +1,4 @@
+14/10/2025_22:31_Programmet startar.
+14/10/2025_22:33_Övervakning startad av användaren.
+14/10/2025_22:33_Övervakningsläge startat.
+14/10/2025_22:34_Programmet avslutas av användaren.

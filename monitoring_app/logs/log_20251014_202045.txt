@@ -1,0 +1,5 @@
+14/10/2025_20:20_Programmet startar.
+14/10/2025_20:21_Övervakning startad av användaren.
+14/10/2025_20:21_Övervakningsläge startades.
+14/10/2025_20:21_***VARNING: CPU överstiger 2% (2.9%)***
+14/10/2025_20:21_***VARNING: CPU överstiger 2% (3.4%)***

@@ -1,0 +1,5 @@
+14/10/2025_20:05_Programmet startar.
+14/10/2025_20:05_Alarm for CPU set to 2%.
+14/10/2025_20:06_Övervakning startad av användaren.
+14/10/2025_20:18_Alarm for CPU set to 4%.
+14/10/2025_20:20_Övervakningsläge startades.
