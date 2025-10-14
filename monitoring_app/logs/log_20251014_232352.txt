@@ -1,0 +1,5 @@
+14/10/2025_23:23_Programmet startar.
+14/10/2025_23:24_Larm skapat: DISK vid 56%
+14/10/2025_23:24_Övervakning startad av användaren.
+14/10/2025_23:25_Övervakningsläge startat.
+14/10/2025_23:30_Programmet avslutas av användaren.

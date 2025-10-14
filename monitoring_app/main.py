@@ -27,19 +27,25 @@ def main_menu():
         print("6.Avsluta programmet")
 
         choice = input("Välj ett alternativ (1-6): ").strip()
-        monitor.suppress_alarms.clear()  # Stop suppressing after input
+        '''monitor.suppress_alarms.clear()  # Stop suppressing after input''' # Deleted to avoid alarms during input
 
         if choice == "1":
+            monitor.suppress_alarms.clear()   # Stop suppressing alarms
             start_monitoring()
         elif choice == "2":
             show_status()
+            monitor.suppress_alarms.set()  # Added 1 - to avoid alarms during input
         elif choice == "3":
             create_alarm_menu()
+            monitor.suppress_alarms.set()  # Added 2 - to avoid alarms during input
         elif choice == "4":
-            show_alarms()
+            monitor.suppress_alarms.set()  # Added 3 - to avoid alarms during input
+            show_alarms()            
         elif choice == "5":
+            monitor.suppress_alarms.set()  # Added 4 - to avoid alarms during input
             start_monitoring_mode()
         elif choice == "6":
+            monitor.suppress_alarms.clear()  # Allow final alarms
             print("Avslutar programmet, vänligen vänta...")
             monitor.stop()
             time.sleep(1)
@@ -90,7 +96,7 @@ def create_alarm_menu():
     print(f"Larm skapat för {alarm_type.upper()} vid {level}%.")
 
 def show_alarms():
-    print("\n-----Konfigurerade Larm-----")
+    print("\n-----Konfigurerade Larm-----")   # Display configured alarms
     if not monitor.alarms:
         print("Inga larm är konfigurerade.")
     else:
@@ -98,6 +104,8 @@ def show_alarms():
         for a in sorted_alarms:     # Display alarms
             print(f"{a.type.upper()} larm {a.level}% (id: {a.id[:6]})")     # Show first 6 chars of id
     input("Tryck på Enter för att återgå till huvudmenyn.")
+
+
 
 def start_monitoring_mode():
     if not monitor.running:

@@ -1,0 +1,6 @@
+14/10/2025_22:57_Programmet startar.
+14/10/2025_22:57_Larm skapat: CPU vid 37%
+14/10/2025_22:57_Larm skapat: CPU vid 29%
+14/10/2025_22:58_Övervakning startad av användaren.
+14/10/2025_22:58_Övervakningsläge startat.
+14/10/2025_23:02_Programmet avslutas av användaren.
