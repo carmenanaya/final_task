@@ -47,8 +47,9 @@ def main_menu():
         elif choice == "6":
             monitor.suppress_alarms.clear()  # Allow final alarms
             print("Avslutar programmet, vänligen vänta...")
-            monitor.stop()
-            time.sleep(1)
+            if monitor.running:
+                monitor.stop()
+                time.sleep(1)
             logger.info("Programmet avslutas av användaren.")
             break
         else:
